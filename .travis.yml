@@ -18,4 +18,4 @@ install:
     - wget https://github.com/JimmySoftware/ESPert/archive/master.zip -O /tmp/espert.zip
     - unzip /tmp/espert.zip -d /tmp
 script:
-    - platformio ci --lib=/tmp/espert-master --board=espresso_lite_v1
+    - platformio ci --lib="/tmp/ESPert-master" --board=espresso_lite_v1
