@@ -15,7 +15,7 @@ install:
     - platformio lib install 19 28 64 66 89 562
 
     # ESPert Library
-    - wget https://codeload.github.com/JimmySoftware/ESPert/archive/master.zip -O /tmp/espert.zip
+    - wget https://github.com/JimmySoftware/ESPert/archive/master.zip -O /tmp/espert.zip
     - unzip /tmp/espert.zip -d /tmp
 script:
     - platformio ci --lib="/tmp/espert-master" --board=espresso_lite_v1
